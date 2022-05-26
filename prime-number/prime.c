@@ -16,7 +16,7 @@ int main(void)
 			tmp ++;
 
 		}
-		printf("0x%1lx, %llu\r\n", prime, prime);
+		printf("0x%llx, %llu\r\n", prime, prime);
 	
 fail:
 		prime++;
